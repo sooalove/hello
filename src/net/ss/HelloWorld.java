@@ -6,4 +6,11 @@ public class HelloWorld {
 		return "Hello World";
 	}
 
+	public String getMessage(String string) {
+		if (string == null) {
+			string = "World";
+		}
+		return "Hello " + string;
+	}
+
 }
